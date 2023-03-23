@@ -1,0 +1,16 @@
+[MAIN]
+
+[MESSAGES CONTROL]
+disable=
+    attribute-defined-outside-init,
+    invalid-name,
+    missing-docstring,
+    protected-access,
+    too-few-public-methods,
+    unused-argument,
+    # handled by black
+    format,
+    # We anticipate #3512 where it will become optional
+    fixme,
+    cyclic-import,
+    import-error,
